@@ -15,7 +15,7 @@ class User1Service{
 
     public function __construct(){
         $this->baseUri=config('services.user1.base_uri');
-        $this->secret=config('sevices.user1.secret');
+        $this->secret=config('services.user1.secret');
     }
     
     public function obtainUsers1(){
